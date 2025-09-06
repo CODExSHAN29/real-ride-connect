@@ -5,6 +5,10 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import AuthSection from "./components/AuthSection";
+import FeaturesSection from "./components/FeaturesSection";
 
 const queryClient = new QueryClient();
 
